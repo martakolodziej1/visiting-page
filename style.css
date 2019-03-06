@@ -368,10 +368,41 @@ input[type=submit]:hover {
     font-size: 0.9em;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
+    .header-image {
+        height: 90%;
+    }
+
+    #about-me {
+        grid-column-gap: 20px;
+    }
+
     #portfolio {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        display: block;
+        padding-bottom: 0.1%;
+        padding-top: 0.1%;
+        text-align: center;
+    }
+
+    #contact {
+        display: block;
+        text-align: center;
+        padding-top: 0.1%;
+    }
+    
+    #contact .side{
+        padding: 0;
+    }
+
+    .side ul {
+        padding: 0;
+    }
+
+    #contact .main {
+        padding-right: 0;
+    }
+    
+    input[type=submit]{
+        margin-left: auto;
     }
 }
