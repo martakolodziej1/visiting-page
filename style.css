@@ -435,3 +435,15 @@ input[type=submit]:hover {
     }
 
 }
+
+@media only screen and (max-width: 300px) {
+    .navbar {
+        flex-direction: column; 
+    }
+    
+    #skills {
+        display: block;        
+        padding: 1%;
+    }
+    
+} 
