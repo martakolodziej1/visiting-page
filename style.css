@@ -409,3 +409,29 @@ input[type=submit]:hover {
         margin-left: auto;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .header-text {
+        font-size: 21px;
+    }
+
+    .navbar {
+        justify-content: space-evenly
+    }
+
+    #about-me {
+        display: block;
+        text-align: center;        
+        padding: 1%;
+    }
+    
+    #about-me ul {
+        padding: 0;
+    }
+    
+    #about-me div {
+        text-align: justify;
+        padding-right: 0;
+    }
+
+}
