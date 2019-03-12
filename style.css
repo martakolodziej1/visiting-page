@@ -122,6 +122,7 @@ body, html {
     grid-row: 1 / 2;
     text-align: center; 
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0;
 }
 
 #skills h3 {
@@ -149,7 +150,7 @@ body, html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
-    grid-column-gap: 10px;
+    grid-column-gap: 5px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5%;
@@ -177,6 +178,7 @@ body, html {
 #portfolio .photo1Title {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    font-size: 0.9em;
 }
 
 .photo1 img {
@@ -198,6 +200,7 @@ body, html {
 #portfolio .photo2Title {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    font-size: 0.9em;
 }
 
 .photo2 img {
@@ -219,6 +222,7 @@ body, html {
 #portfolio .photo3Title {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
+    font-size: 0.9em;
 }
 
 .photo3 img {
@@ -240,6 +244,7 @@ body, html {
 #portfolio .photo4Title {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
+    font-size: 0.9em;
 }
 
 .photo4 img {
@@ -261,6 +266,7 @@ body, html {
 #portfolio .photo5Title {
     grid-column: 2 / 3;
     grid-row: 5 / 6;
+    font-size: 0.9em;
 }
 
 .photo5 img {
@@ -282,6 +288,7 @@ body, html {
 #portfolio .photo6Title {
     grid-column: 3 / 4;
     grid-row: 5 / 6;
+    font-size: 0.9em;
 }
 
 .photo6 img {
