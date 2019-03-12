@@ -47,16 +47,12 @@ body, html {
   }
   
 .navbar {
+    display: flex;
     overflow: hidden;
     background-color: #555;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
 }
   
 .navbar a {
-    float: left;
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
@@ -67,12 +63,6 @@ body, html {
     background-color: #f2ccc1;
     color: black;
 }
-
-/*.container {
-    /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-}*/
 
 #about-me {
     display: grid;
