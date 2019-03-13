@@ -7,7 +7,7 @@ body, html {
     font-size: 18px;
     margin: 0;
     height: 100%;
-    background-color: #727371;
+    background-color: #707173;
 }
 
 .header-image {
@@ -26,7 +26,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #e6daa8;
+    color: #FDF5AC;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -41,7 +41,7 @@ body, html {
   }
   
   .header-text button:hover {
-    background-color: #555;
+    background-color: #75082d;
     color: white;
     font-weight: bold;
   }
@@ -49,7 +49,7 @@ body, html {
 .navbar {
     display: flex;
     overflow: hidden;
-    background-color: #555;
+    background-color: #413d39;
 }
   
 .navbar a {
@@ -72,7 +72,7 @@ body, html {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5%;
-    background-color: rgba(230, 218, 168, 0.7);
+    background-color: #f3e7aa;
     
 }
 
@@ -114,7 +114,7 @@ body, html {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5%;
-    background-color: rgba(230, 218, 168, 0.7);
+    background-color: #f3e7aa;
 }
 
 #skills h2 {
@@ -154,7 +154,7 @@ body, html {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5%;
-    background-color: rgba(230, 218, 168, 0.7);
+    background-color: #f3e7aa;
 }
 
 #portfolio h2 {
@@ -311,7 +311,7 @@ body, html {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     padding-left: 1%;
-    background-color: rgba(230, 218, 168, 0.7);
+    background-color: #f3e7aa;
 }
 
 #contact h2 {
@@ -342,20 +342,21 @@ input[type="text"], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     display: block;
+    color: black;
 }
 
 input[type=submit] {
     border: none;
     display: inline-block;
     padding: 10px 15px;
-    color: black;
-    background-color: #f2ccc1;
+    color: white;
+    background-color: #413d39;
     text-align: center;
     margin-bottom: 18px;
 }
   
 input[type=submit]:hover {
-    background-color: #555;
+    background-color: #707173;
     color: white;
     font-weight: bold;
 }
@@ -391,6 +392,7 @@ input[type=submit]:hover {
         display: block;
         text-align: center;
         padding-top: 0.1%;
+        padding-left: 0px
     }
     
     #contact .side{
